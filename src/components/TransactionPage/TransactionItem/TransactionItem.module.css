@@ -1,0 +1,10 @@
+.row {
+  & td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+  }
+
+  &:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+}

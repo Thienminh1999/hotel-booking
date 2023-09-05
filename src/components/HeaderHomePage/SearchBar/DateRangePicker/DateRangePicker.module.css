@@ -1,0 +1,17 @@
+.range-picker-container {
+  position: relative;
+
+  & .picker-modal {
+    position: absolute;
+    top: 38px;
+
+    @media (max-width: 992px) {
+      left: 45vw;
+      transform: translateX(-50%);
+    }
+
+    @media (max-width: 768px) {
+      left: 38vw;
+    }
+  }
+}

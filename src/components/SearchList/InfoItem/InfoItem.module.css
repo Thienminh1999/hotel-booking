@@ -1,0 +1,26 @@
+.info-container {
+  & h2 {
+    color: blue;
+  }
+
+  & p,
+  h4 {
+    margin-block: 10px;
+  }
+
+  & span {
+    color: #fff;
+    background-color: green;
+    font-weight: 100;
+    padding: 2px 5px;
+    border-radius: 10px;
+  }
+}
+
+.cancel-description {
+  color: green;
+
+  & .is-free-cancel {
+    font-weight: 600;
+  }
+}

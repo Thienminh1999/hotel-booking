@@ -1,0 +1,52 @@
+.container {
+  margin-block: 1rem;
+  & h4 {
+    text-transform: uppercase;
+  }
+
+  & ul {
+    list-style-type: none;
+
+    & li {
+      margin-block: 0.3rem;
+
+      & .active {
+        background-color: #bfb1f3;
+      }
+
+      & a {
+        display: grid;
+        grid-template-columns: 1fr 11fr;
+        text-decoration: none;
+        color: black;
+        padding-inline: 0.3rem;
+        border-radius: 5px;
+
+        & .btn {
+          background-color: transparent;
+          border: none;
+          font-size: 1rem;
+          display: flex;
+          padding-inline: 0.3rem;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+
+        &:hover {
+          background-color: #bfb1f3;
+        }
+      }
+
+      & i {
+        margin-block: auto;
+        color: #6940ff;
+      }
+
+      & span {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+}

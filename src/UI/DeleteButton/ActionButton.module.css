@@ -1,0 +1,11 @@
+.container {
+  padding: 0.3rem;
+  border: 1px dashed red;
+  color: red;
+  background-color: #fff;
+  margin-right: 0.3rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

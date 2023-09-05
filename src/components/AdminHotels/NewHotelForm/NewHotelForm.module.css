@@ -1,0 +1,42 @@
+.container {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem;
+
+  & .form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15rem;
+
+    & .form_controller {
+      display: grid;
+      margin-bottom: 1rem;
+
+      & span {
+        color: red;
+      }
+
+      & input {
+        padding: 0.3rem;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid gray;
+      }
+
+      & input[type="checkbox"] {
+        justify-self: start;
+        margin-top: 0.5rem;
+      }
+
+      & textarea {
+        padding: 0.3rem;
+      }
+    }
+  }
+
+  & button {
+    padding: 0.3rem 1rem;
+    background-color: #008080;
+    border: none;
+    color: #fff;
+  }
+}

@@ -1,0 +1,7 @@
+.list-navbar {
+  display: flex;
+  background-color: #003580;
+  color: #fff;
+  padding: 10px 0px;
+  flex-wrap: wrap;
+}

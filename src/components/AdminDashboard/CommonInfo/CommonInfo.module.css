@@ -1,0 +1,52 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+
+  & .card_info {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 0.5rem;
+    border-radius: 5px;
+
+    & h5 {
+      text-transform: uppercase;
+      color: gray;
+    }
+
+    & h1 {
+      font-weight: 300;
+      margin-top: 0.5rem;
+    }
+
+    & .bottom {
+      display: flex;
+      justify-content: flex-end;
+
+      & .icon_wrapper {
+        width: fit-content;
+        padding: 0.2rem;
+        border-radius: 5px;
+      }
+
+      & .red {
+        color: red;
+        background-color: #ffcccc;
+      }
+
+      & .yellow {
+        color: rgb(167, 167, 0);
+        background-color: #f8edd2;
+      }
+
+      & .green {
+        color: green;
+        background-color: #cce6cc;
+      }
+
+      & .purple {
+        color: purple;
+        background-color: #e6cce6;
+      }
+    }
+  }
+}

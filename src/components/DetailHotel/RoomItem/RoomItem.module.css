@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 0.5rem;
+
+  & .room_info {
+    & .max_people {
+      font-size: 0.9rem;
+    }
+  }
+
+  & .room_numbers {
+    display: flex;
+    justify-content: center;
+
+    & .room_checkbox {
+      display: flex;
+      flex-direction: column;
+      margin-block: auto;
+      margin-right: 0.3rem;
+    }
+
+    & .unavailable {
+      margin-block: auto;
+    }
+  }
+}

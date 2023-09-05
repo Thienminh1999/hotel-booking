@@ -1,0 +1,29 @@
+.container {
+  min-height: 100vh;
+  & .row {
+    display: flex;
+
+    & .nav {
+      width: 200px;
+    }
+
+    & .page_title {
+      height: 50px;
+      border-bottom: 1px solid lightgray;
+      border-right: 1px solid lightgray;
+      text-align: center;
+      padding-block: 0.5rem;
+      color: #6940ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    & .main {
+      margin-top: 50px;
+      border-top: 1px solid lightgray;
+      padding: 1rem;
+      width: 100%;
+    }
+  }
+}

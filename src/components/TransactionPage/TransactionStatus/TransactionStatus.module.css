@@ -1,0 +1,18 @@
+.booked {
+  background-color: #f69685;
+  color: green;
+  padding: 0.2rem;
+  border-radius: 5px;
+}
+.checkin {
+  background-color: #39d139;
+  color: green;
+  padding: 0.2rem;
+  border-radius: 5px;
+}
+.checkout {
+  background-color: #d3d0f2;
+  color: green;
+  padding: 0.2rem;
+  border-radius: 5px;
+}

@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #003580;
+  color: #fff;
+  padding: 10px 0px;
+
+  & .title {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+  }
+}
+
+.functions-btn {
+  display: flex;
+  align-items: center;
+  & a,
+  & button {
+    margin-left: 10px;
+    padding: 0.2rem 0.5rem;
+    background-color: #fff;
+    text-decoration: none;
+    color: black;
+  }
+
+  & button {
+    border: none;
+    font-size: 1rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

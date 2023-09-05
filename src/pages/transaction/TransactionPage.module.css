@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+
+  & h2 {
+    margin-block: 1rem;
+  }
+
+  @media (min-width: 992px) {
+    width: 70%;
+    margin: 0 auto;
+  }
+}

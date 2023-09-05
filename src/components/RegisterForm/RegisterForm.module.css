@@ -1,0 +1,27 @@
+.register-container {
+  text-align: center;
+  padding-block: 3rem;
+  color: #fff;
+  margin-block: 5rem;
+
+  & p {
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin-block: 1rem;
+  }
+
+  & form {
+    display: flex;
+    justify-content: center;
+
+    & input {
+      padding: 5px 5px;
+      width: 15%;
+      margin-right: 0.5rem;
+
+      @media (max-width: 992px) {
+        width: 50%;
+      }
+    }
+  }
+}

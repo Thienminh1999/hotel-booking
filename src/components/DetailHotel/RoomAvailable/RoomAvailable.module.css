@@ -1,0 +1,29 @@
+.container {
+  & .rooms {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  & h2 {
+    margin-block: 0.5rem;
+  }
+
+  & .actions {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+
+    & select {
+      width: 50%;
+    }
+
+    & button {
+      border-radius: 5px;
+
+      &:disabled {
+        background-color: gray;
+      }
+    }
+  }
+}

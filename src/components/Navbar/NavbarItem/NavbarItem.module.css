@@ -1,0 +1,17 @@
+.nav-item {
+  display: flex;
+  padding: 5px 10px;
+  border: 1px solid #003580;
+  align-items: center;
+  border-radius: 10px;
+  margin-right: 20px;
+
+  &.active {
+    border: 1px solid #fff;
+  }
+
+  & h5 {
+    margin-left: 10px;
+    white-space: nowrap;
+  }
+}

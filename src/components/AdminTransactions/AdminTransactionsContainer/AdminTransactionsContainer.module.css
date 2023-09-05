@@ -1,0 +1,18 @@
+.container {
+  & .top_bar {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 1rem;
+
+    & a {
+      color: green;
+      background-color: #fff;
+      border: 2px solid green;
+      padding-inline: 0.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+    }
+  }
+}

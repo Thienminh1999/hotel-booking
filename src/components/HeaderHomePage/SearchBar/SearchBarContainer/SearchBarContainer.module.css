@@ -1,0 +1,26 @@
+.searchbar-container {
+  display: flex;
+  background-color: #fff;
+  padding: 0.5rem 2rem;
+  border: 5px solid #efbf11;
+  justify-content: space-between;
+  transform: translateY(50%);
+  align-items: center;
+  border-radius: 10px;
+  z-index: 100;
+  position: relative;
+
+  & .picker-modal {
+    position: absolute;
+    top: 38px;
+    z-index: 9999;
+  }
+
+  @media (max-width: 992px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    row-gap: 1rem;
+    margin-inline: 10px;
+  }
+}

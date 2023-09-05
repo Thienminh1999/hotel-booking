@@ -1,0 +1,16 @@
+.table {
+  table-layout: auto;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+
+  & thead {
+    background-color: #32a4c1;
+    color: #fff;
+
+    & th {
+      padding: 0.5rem;
+      border: 1px solid #ddd;
+    }
+  }
+}

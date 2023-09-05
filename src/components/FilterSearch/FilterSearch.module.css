@@ -1,0 +1,15 @@
+.form-filter {
+  background-color: rgb(249, 187, 18);
+  padding: 10px 10px;
+  border-radius: 10px;
+  display: grid;
+  height: fit-content;
+
+  & h3 {
+    margin-bottom: 0.6rem;
+  }
+
+  & button {
+    width: 100%;
+  }
+}

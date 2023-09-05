@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
+
+  & .col {
+    flex: 1;
+    font-size: 0.8rem;
+    max-width: fit-content;
+    margin: 1rem;
+
+    & p {
+      margin-block: 0.5rem;
+      color: #003580;
+    }
+  }
+
+  @media (max-width: 992px) {
+    width: 100%;
+  }
+}
